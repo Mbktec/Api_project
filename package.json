@@ -1,0 +1,22 @@
+{
+  "name": "node_debut",
+  "version": "1.0.0",
+  "description": "My first project of node-js.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js "
+  },
+  "author": "Mbktec",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mariadb": "^3.0.0",
+    "sequelize": "^6.21.3",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
